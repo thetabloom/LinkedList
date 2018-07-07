@@ -41,7 +41,7 @@ h1{
   width: 1.5em;
 }
 
-button {
+.enter {
   width: 100%;
   background-color: #FFC107;
   color: #FFFFFF;
@@ -49,7 +49,7 @@ button {
   outline: none;
 }
 
-button:hover {
+.enter:hover {
   background-color: #FFD773;
 }
 
@@ -77,7 +77,37 @@ form {
   width: 90%;
 }
 
-
 ul{
   list-style-type: none;
 }
+
+.website-list{
+  border: 1px solid #607D8B;
+  background-color: white;
+  margin: 1em;
+  padding: 1em;
+}
+
+.delete {
+  position: relative;
+  float: right;
+  border: none;
+  color: #455A64;
+}
+
+.read {
+  position: relative;
+  float: left;
+  border: none;
+  color: #455A64;
+}
+
+h3 {
+  color: #455A64;
+}
+
+p {
+  color: #607D8B;
+}
+
+
