@@ -9,6 +9,16 @@
 
 
 .right-column{
+	display: grid;
+}
+
+.main-content{
+	display: grid;
+	grid-template-columns: repeat(2.1fr);
+}
+
+
+.right-column{
 	dislpay: grid;
 	grid-template-rows: repeat(4.1fr);
 }
