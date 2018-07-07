@@ -30,6 +30,7 @@ h1{
   /*justify-content: center;*/
 }
 
+
 .right-column {
   grid-column: 2 / span 1;
   background-color: #CFD8DC;
@@ -80,4 +81,3 @@ form {
 ul{
   list-style-type: none;
 }
-
