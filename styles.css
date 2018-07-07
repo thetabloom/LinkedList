@@ -51,12 +51,14 @@ h2 {
 }
 
 .enter {
-  background-color: #ffc107;
-  border: 0;
-  color: #fff;
-  font-size: 2em;
-  margin: 50em;
-  width: 100%;
+ background-color: #ffc107;
+ border: 0;
+ color: #fff;
+ font-size: 2em;
+ css-revision
+ margin: 50em;
+ master
+ width: 100%;
 }
 
 }
