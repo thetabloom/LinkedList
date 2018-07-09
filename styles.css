@@ -81,7 +81,7 @@ ul{
   list-style-type: none;
 }
 
-.website-list{
+li{
   border: 1px solid #607D8B;
   background-color: white;
   margin: 1em;
