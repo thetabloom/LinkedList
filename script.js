@@ -36,14 +36,6 @@ enterButton.addEventListener('click', function(){
 } else (document.querySelector('.error').innerText = null);
 })
 
-
-// readButton.addEventListener('click', changeColor);
-
-// function changeColor(event) {
-//   if (event.target.document.querySelector("ul") == document.querySelector('li')){
-//   console.log('is it working')
-// }
-// }
 unorderedList.addEventListener('click', function (event) {
   if (event.target.classList.contains('read')) {
     document.querySelector('li').classList.toggle('read-button');
@@ -59,19 +51,5 @@ unorderedList.addEventListener('click', function (event) {
     console.log('hello');
    }
  })
-
-// // Get the element, add a click listener...
-// document.getElementById('ul').addEventListener("click", function(event) {
-// // e.target is the clicked element!
-// // If it was a list item
-// if(event.target && event.target.nodeName == "LI") {
-//     // List item found!  Output the ID!
-//     console.log("List item ", e.target.id.replace("post-"), " was clicked!");
-//        }
-//  });
-// }
- //  event.preventDefault();
- //  readButton.classList.toggle('button'); 
- // }
 
 
