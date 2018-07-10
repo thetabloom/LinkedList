@@ -84,6 +84,7 @@ form {
 ul{
   list-style-type: none;
   overflow: scroll;
+  height: 100%;
 
 }
 
@@ -128,11 +129,15 @@ p {
   color: red;
 }
 
-  button.read:hover {
+button.read:hover, p.site:hover {
   text-decoration-line: underline;
   text-decoration-color: #FFC107;
   font-weight: bold;
+}
 
+button.delete:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #FFC107;
 }
 
 .read-button {
