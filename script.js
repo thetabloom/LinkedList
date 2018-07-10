@@ -46,10 +46,12 @@ unorderedList.addEventListener('click', function (event) {
  });
 
 unorderedList.addEventListener('click', function (event) {
-  if (event.target.classList.contains('delete')) {
-    document.querySelector('.delete').classList.toggle('delete-button');
-    console.log('hello');
-   }
- })
+ event.preventDefault();
+ if (event.target.classList.contains('delete')) {
+   console.log(event);
+   event.target.parentNode.parentNode.remove(); //this says to delete the li from the parent ul
+   console.log('hello');
+  }
+})
 
 
