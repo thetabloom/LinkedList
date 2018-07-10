@@ -83,8 +83,8 @@ ul{
 li{
   border: 1px solid #607D8B;
   background-color: white;
-  margin: 1em;
-  padding: 1em;
+  margin: 1.8em;
+  padding: 1.8em;
 }
 
 .delete {
@@ -102,10 +102,36 @@ li{
 }
 
 h3 {
+  /*padding: .3em;*/
   color: #455A64;
 }
 
 p {
+  /*padding: .3em;*/
   color: #607D8B;
+}
+
+.error{
+  color: red;
+}
+
+.read:hover {
+  underline: #FFC107;
+  color: #45564;
+
+}
+
+.read-button {
+  background-color: #f2F4F4;
+}
+
+.new-button {
+  color: #F05A28;
+
+}
+
+.new-site {
+  text-decoration-line: underline;
+  text-decoration-color: red;/*#CFD8DC*/;
 }
 
