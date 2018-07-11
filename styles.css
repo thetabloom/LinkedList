@@ -3,11 +3,12 @@
   padding: 0;
 }
 
-h1{
+h1 {
   color: #FFFFFF;
-  font-size: 4em;
+  font-size: 5em;
   margin-bottom: 2rem;
 }
+
 .main-content {
 	display: grid;
 	grid-template-columns: 1fr, 1fr;
@@ -53,6 +54,12 @@ h1{
   outline: none;
 }
 
+.enter:disabled:hover {
+  background-color: #FFC107;
+  color: #FFFFFF;
+
+}
+
 .enter:hover {
   background-color: #FFD773;
 }
@@ -67,7 +74,7 @@ div{
 input{
   box-sizing: border-box;
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   justify-content: center;
   align-items: center;
   display: block;
@@ -78,7 +85,7 @@ input{
 form {
   align-items: center;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 
 ul{
@@ -119,12 +126,19 @@ h3 {
   color: #455A64;
 }
 
+h4 {
+   color: #FFFFFF;
+   padding: 1em;
+}
+
 p {
   padding: .3em;
   color: #607D8B;
 }
 
-
+a {
+  color: #607D8B;
+}
 .error{
   color: red;
 }
@@ -156,3 +170,40 @@ button.delete:hover {
 }
 
 
+@media screen and (max-width:1330px) {
+h1{
+  font-size: 4em;
+  }
+.logo-photo{
+  width: 1em;
+}  
+}
+
+
+@media screen and (max-width:1000px) {
+h1{
+  font-size: 3.5em;
+  }
+form {
+  width: 90%;
+}
+
+
+@media screen and (max-width:800px) {
+.main-content {
+/*  display: block;
+*/
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.left-column {
+grid-row: 1 / span 2;
+width: 100%;
+  }
+.right-column{
+  grid-row: 3 / span 2; 
+}  
+/*form{
+  display: block;*/
+}
+}
