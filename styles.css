@@ -93,13 +93,14 @@ ul{
   overflow: scroll;
   height: 100%;
 
+
 }
 
 li{
   border: 1px solid #607D8B;
   background-color: white;
   margin: 1.8em;
-  padding: 1.8em;
+  padding: .8em 1.8em 1.8em 1.8em;
 
 }
 
@@ -110,6 +111,7 @@ li{
   color: #455A64;
   outline: none;
   font-size: .8em;
+  margin-top: .5em;
 }
 
 .read {
@@ -119,11 +121,22 @@ li{
   color: #455A64;
   outline: none;
   font-size: .8em;
+  margin-top: .5em;
+}
+
+.clear {
+  width: 100%;
+  background-color: #FFC107;
+  color: #FFFFFF;
+  padding: 1em;
+  outline: none;
+  margin-top: 2em;
 }
 
 h3 {
-  /*padding: .3em;*/
+  
   color: #455A64;
+  padding-bottom: .7em;
 }
 
 h4 {
@@ -131,14 +144,16 @@ h4 {
    padding: 1em;
 }
 
+
+
 p {
-  padding: .3em;
   color: #607D8B;
 }
 
 a {
   color: #607D8B;
 }
+
 .error{
   color: red;
 }
@@ -165,10 +180,17 @@ button.delete:hover {
 
 .new-site {
   text-decoration-line: underline;
-  /*padding: .5em;*/
   text-decoration-color: #CFD8DC;
 }
 
+.site-click {
+  padding-bottom: 3em;
+}
+
+.site {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
 
 @media screen and (max-width:1330px) {
 h1{

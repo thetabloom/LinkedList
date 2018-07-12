@@ -26,10 +26,11 @@ function listBmark(){
       newItem.innerHTML =
       `<h3>${websiteTitle.value}
       </h3>
-        <br /><hr />
-      <p class="site">
+        <hr />
+            <p class="site">
             <a class="site-click" target="_blank" href="https://${websiteURL.value}/">${websiteURL.value}</a>
-      </p><br /><hr /><hr />
+            </p>
+            <hr />
       <button class="read">Read</button>
       <button class="delete"> Delete</button>`
       var list = document.querySelector("ul");
@@ -102,5 +103,8 @@ function counting() {
   readCounter = document.querySelectorAll('.new-button').length
   unreadCounter = counter - readCounter
 }
+
+
+
 
 
