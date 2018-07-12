@@ -17,6 +17,7 @@ enterButton.addEventListener('click', function() {
     }
 });
 
+
 function listBmark() {
     var newItem = document.createElement('li');
     if (websiteTitle.length == 0 || websiteURL.length == 0) {
@@ -86,9 +87,16 @@ function enterDisable() {
     }
 }
 
+
 unorderedList.addEventListener('click', function(event) {
     event.preventDefault();
     if (event.target.classList.contains('delete')) {
         event.target.parentNode.remove();
     }
 })
+
+
+
+
+
+

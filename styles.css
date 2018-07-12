@@ -124,6 +124,15 @@ li{
   width: 100%;
 }
 
+.clear {
+  width: 100%;
+  background-color: #FFC107;
+  color: #FFFFFF;
+  padding: 1em;
+  outline: none;
+  margin-top: 2em;
+}
+
 h3 {
   color: #455A64;
   padding-bottom: .7em;
@@ -180,6 +189,14 @@ button.delete:hover {
   margin-top: 1em;
 }
 
+.site-click {
+  padding-bottom: 3em;
+}
+
+.site {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
 
 @media screen and (max-width:1330px) {
 h1{
